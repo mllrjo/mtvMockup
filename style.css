@@ -1,0 +1,148 @@
+body{
+    background-size:cover;
+}
+
+.navbar{
+    border:solid white;
+    background-color: none;
+    display:flex;
+    height:64px;
+}
+
+.imageContainer{
+    border:solid grey;
+    /* height:44px; */
+    margin:1em;
+}
+.episodeContainer{
+    border:solid navy;
+    height:44px;
+    margin:1em;
+}
+.iconContainer{
+    /* border:solid lime; */
+    display:flex;
+    justify-content: space-between;
+    width:30%;
+    margin:10px;
+}
+.btnContainer{
+    /* border:solid orange; */
+    width:70%;
+    margin:10px;
+}
+.sidebar{
+    height:100%;
+}
+.logo{
+    position:absolute;
+    top:95px;
+    height:5%;
+}
+.mtvLogin{
+    width:100px;
+    font-size:18px;
+    border-radius:12px;
+    margin-top:12px;
+    background-color: green;
+    color:yellow;
+    font-family:Atial;
+    margin-left:65%;
+
+}
+.mtv{
+    width:100%;
+}
+.background-image {
+    width: 100%;
+    height: auto;
+}
+
+.foreground {
+    position:absolute;
+    top: 80px; /* Adjust to place the image as desired */
+    padding-left: 60px;
+    display: flex;
+}
+
+  ul {
+    top: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    top: 10px;
+    float: left;
+  }
+
+  li:first-child {
+    display: block;
+    color: white;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(206, 200, 200);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    color: white;
+  }
+
+  .inactive {
+    color: white;
+  }
+  
+  .active {
+    background-color: none;
+  }
+  
+  .try_paramount{
+    float:right;
+    margin-top:5px;
+    padding:10px;
+    background-color:yellow;
+    color: black;
+    border-radius:5px;
+    font-weight:bold;
+  }
+
+  .foreground-image {
+    position: absolute;
+    top: 205px; /* Adjust to place the image as desired */
+    left: 160px; /* Adjust to place the image as desired */
+    width: 40%; /* Adjust size for the overlay image */
+    height: auto;
+  }
+
+  .flex-item {
+    padding: 10px;
+  }
+  
+  @media (max-width: 800px) {
+    .flex-item:nth-child(4) {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .flex-item:nth-child(3) {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .flex-item:nth-child(2) {
+      display: none;
+    }
+  }
